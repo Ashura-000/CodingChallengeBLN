@@ -1,0 +1,73 @@
+/* Generali */ 
+body {
+    background-image: url("Img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2%;
+
+}
+
+.contenitor {
+    background-color: rgba(0,0,0,.5);
+    width: 1000px;
+    margin: auto;
+    padding: 5%;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS per header e nav */
+.logo {
+    width: 250px;
+}
+
+header {
+    text-align: center;
+    color: rgb(51, 233, 51);
+}
+
+header > h1 {
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(51, 233, 51) ;
+    padding: 10px;
+}
+
+/* CSS per le parti section del Main, dedicate ai monopattini */
+section {
+    color: white;
+}
+
+span > h1 {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.ubication {
+    font-size: 18px;
+}
+
+/* Stili per lo stato delle cariche delle batterie*/
+.Batteria {    
+    height: 35px;
+    border-radius: 5px;
+}
+
+.Carica {
+    background-color: rgb(40, 224, 40);
+    width: 77%;
+}
+
+.Half-charge {
+    background-color: rgb(202, 182, 70);
+    width: 38%;
+}
+
+.Scarica {
+    background-color: rgb(139, 68, 58);
+    width: 15%;
+}
